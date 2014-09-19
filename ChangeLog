@@ -1,3 +1,18 @@
+1.2 - Friday 19 September 2014
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed license and doc blocks.
+- Fixed issue #13658: tutorial_autoload.php fails under Windows.
+- Updated all the class diagrams.
+- Refactored detection of identify binary to use proper ezcBaseFeature method.
+- Fixed return value check.
+- Fixed issues with escapeshell*() on Windows.
+- Fixed: Adjusted source headers of ImageAnalysis to Apache license.
+- Updated: Moving copyright information to NOTICE files.
+- Fixed: Updated copyright dates in NOTICE files.
+- Remove custom test runner.
+- Fix autoloading with composer
+
 1.1.3 - Monday 05 May 2008
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
