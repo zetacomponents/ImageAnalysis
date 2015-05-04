@@ -206,7 +206,7 @@ class ezcImageAnalyzer
             $handler = new $handlerClass( $options );
             if ( $handler->isAvailable() ) 
             {
-                ezcImageAnalyzer::$availableHandlers[] = clone( $handler );
+                ezcImageAnalyzer::$availableHandlers[] = clone $handler;
             }
         }
     }
